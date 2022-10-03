@@ -48,10 +48,7 @@ const Add = ({ setClose }) => {
         img: url,
       };
 
-      await axios.post(
-        "https://pizzapp-nu.vercel.app/api/products",
-        newProduct
-      );
+      await axios.post("https://pizzap.vercel.app/api/products", newProduct);
 
       setClose(true);
     } catch (error) {

@@ -28,7 +28,7 @@ const Cart = () => {
   const createOrder = async (data) => {
     try {
       const res = await axios.post(
-        "https://pizzapp-nu.vercel.app/api/orders",
+        "https://pizzap.vercel.app/api/orders",
         data
       );
 

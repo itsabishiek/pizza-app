@@ -13,7 +13,7 @@ const Login = () => {
 
   const handleClick = async () => {
     try {
-      await axios.post("https://pizzapp-nu.vercel.app/api/login", {
+      await axios.post("https://pizzap.vercel.app/api/login", {
         username,
         password,
       });

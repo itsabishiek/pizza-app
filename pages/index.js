@@ -33,7 +33,7 @@ export const getServerSideProps = async (ctx) => {
     admin = true;
   }
 
-  const res = await axios.get("https://pizzapp-nu.vercel.app/api/products");
+  const res = await axios.get("https://pizzap.vercel.app/api/products");
 
   return {
     props: {

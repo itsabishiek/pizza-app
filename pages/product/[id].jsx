@@ -111,7 +111,7 @@ export default Product;
 
 export const getServerSideProps = async ({ params }) => {
   const res = await axios.get(
-    `https://pizzapp-nu.vercel.app/api/products/${params.id}`
+    `https://pizzap.vercel.app/api/products/${params.id}`
   );
 
   return {

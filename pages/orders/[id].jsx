@@ -129,7 +129,7 @@ export default Order;
 
 export const getServerSideProps = async ({ params }) => {
   const res = await axios.get(
-    `https://pizzapp-nu.vercel.app/api/orders/${params.id}`
+    `https://pizzap.vercel.app/api/orders/${params.id}`
   );
 
   return {
